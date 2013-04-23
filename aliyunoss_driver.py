@@ -28,7 +28,7 @@ class driver_oss():
 		if (res.status / 100) == 2:
 			print "upload_file Sccess"
 		else:
-			return "upload_file Error"
+			print "upload_file Error"
 
 	def delete_data(self, bucket, object):  
 
