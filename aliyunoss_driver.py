@@ -2,7 +2,6 @@
 #-*- coding:utf-8 -*-
 
 from oosAPI.oss_api import *
-from oosAPI.oss_xml_handler import *
 
 HOST = ''
 ACCESS_ID = ''
