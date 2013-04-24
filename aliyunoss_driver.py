@@ -1,8 +1,8 @@
 #!/usr/bin/env  python
 #-*- coding:utf-8 -*-
 
-from oss_api import *
-from oss_xml_handler import *
+from oosAPI.oss_api import *
+from oosAPI.oss_xml_handler import *
 
 HOST = ''
 ACCESS_ID = ''
