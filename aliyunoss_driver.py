@@ -3,9 +3,6 @@
 
 from oosAPI.oss_api import *
 
-HOST = ''
-ACCESS_ID = ''
-SECRET_ACCESS_KEY = ''
 
 class driver_oss():
 	"""
@@ -18,7 +15,7 @@ class driver_oss():
 		self.host = host
 		self.id   = id
 		self.key  = key
-		self.oss  = OssAPI(HOST, id, key)
+		self.oss  = OssAPI(host, id, key)
 
 
 	def upload_data(self, bucket, object, filename):
